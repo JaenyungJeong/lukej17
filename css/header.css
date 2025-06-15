@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+/* header 공통 */
+header {
+
+    width: 100%;
+    height: 90px;
+    text-transform: uppercase;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+
+
+header .cafe-header {
+    width: 100%;
+    max-width: 1440px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+header .cafe-header .logo {
+    float: left;
+    line-height: 90px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+header .cafe-header .logo a {
+    color: #fff;
+    font-family: "IM Fell English SC", serif;
+
+}
+
+
+header .cafe-header .gnb {
+    font-family: "IM Fell English SC", serif;
+    float: right;
+    line-height: 90px;
+
+}
+
+header .cafe-header .gnb .header-menu li {
+
+    font-size: 20px;
+
+    float: left;
+    margin: 0 30px;
+}
+
+header .cafe-header .gnb .header-menu li a {
+    color: #fff;
+}
+
+header .cafe-header .gnb .header-menu li a:hover {
+    color: #113829;
+    text-decoration: underline;
+}

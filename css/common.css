@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+
+
+/* 메인폰트 
+font-family: "IM Fell English SC",serif;
+
+한글폰트 
+font-family: "Special Elite",system-ui;
+font-family: "Asta Sans", sans-serif;
+
+영어폰트 
+font-family: "Outfit",sans-serif;
+font-weight : 100~900;
+
+보더 래디우스 border-radius: 30px;
+overflow: hidden;
+border: 10px solid #F6EBE3;
+box-sizing: border-box; */
+
+/* 컬러 */
+
+#F6EBE3
+
+/* cta 버튼  */
+
+.cta-btn {
+    font-family: "Outfit", sans-serif;
+    width: 200px;
+    height: 40px;
+    background-color: #113829;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+
+}
+
+.cta-btn a {
+    color: #fff;
+}
+.cta-btn:hover {
+    background-color: #fff;
+
+    border: 1px solid #113829;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.cta-btn:hover a {
+    color: #113829;
+}
+
+
+/* 수직 중앙 정렬 */
+.differ>div>div {
+    background-color: #F6EBE3;
+    width: 23.5%;
+    height: 430px;
+    float: left;
+    text-align: center;
+    border: 1px solid #F6EBE3;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* 수직 중앙 정렬 */
+    align-items: center;
+    /* 수평 중앙 정렬 */
+    padding: 20px;
+    line-height: 1.6;
+}

@@ -1,0 +1,57 @@
+    @charset "UTF-8";
+
+
+
+    /* 
+
+    구글웹폰트
+
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight : 100 ~ 900;
+
+    font-family: "Outfit", sans-serif;
+    font-weight : 100 ~ 900;
+
+    font-family: "Special Elite", system-ui;
+    font-weight : 400;
+
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+
+    font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+
+    */
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 100%;
+        font-weight: normal;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    .clear::after {
+        content: "";
+        display: block;
+        clear: both;
+    }

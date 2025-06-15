@@ -1,0 +1,463 @@
+@charset 'utf-8';
+
+/* body {
+    overflow-x: hidden;
+} */
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+.main .main-content {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+
+}
+
+/* .main .main-content .main-img {
+    width: 100%;
+    display: block;
+
+} */
+
+.main .main-content .main-logo_title {
+    color: #fff;
+
+    position: absolute;
+    left: 40%;
+    top: 35%;
+
+    transform: translateX(-40%);
+    transform: translateY(-35%);
+
+    text-align: center;
+
+}
+
+.main .main-content .main-logo_title h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.main .main-content .main-logo_title p {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}
+
+.main .main-content .main-logo_title p.bigfont {
+    font-family: "Special Elite", system-ui;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.main .main-content .main-logo_title p.smallfont {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-family: "Asta Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.about .about-des {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.about .about-des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+
+.about .about-des .bigfont {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.about .about-des p:last-child {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    word-break: keep-all;
+}
+
+.history {
+    margin-bottom: 100px;
+}
+
+.history .history-content {
+    width: 100%;
+    max-width: 1920px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 100px;
+
+}
+
+.history .history-content .history-img {}
+
+.history .history-content .history-img img {
+    display: block;
+}
+
+.history .history-content .history-des {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+
+    transform: translateX(-35%);
+    transform: translateY(-50%);
+}
+
+.history .history-content .history-des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.history .history-content .history-des p {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 30px;
+
+}
+
+.history .history-intro {
+
+}
+
+.history .history-intro .intro-box {
+    width: 100%;
+    max-width: 1720px;
+    overflow: hidden;
+    
+
+    text-align: center;
+
+    margin: 0 auto 40px;
+}
+
+.history .history-intro .intro-box>div {
+    float: left;
+}
+
+.history .history-intro .intro-box .des {
+    width: 100%;
+    background-color: #F6EBE3;
+    padding: 40px 0;
+    border: 5px solid #f8f0ea;
+    border-radius: 24px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+
+    /* outline: 1px solid blue;/// */
+
+}
+
+.history .history-intro .intro-box .des>div {
+
+    width: 200px;
+    height: 40px;
+    background-color: #D9D0C9;
+    color: #fff;
+    border: 1px solid #F6EBE3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+
+    margin: 0 auto 40px;
+
+
+
+}
+
+.history .history-intro .intro-box .des>div p {}
+
+.history .history-intro .intro-box .des h4 {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.history .history-intro .intro-box .des .des-box {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 22px;
+}
+
+.history .history-intro .intro-box .intro-img {}
+
+.history .history-intro .intro-box .intro-img img {
+    width: 100%;
+    display: block;
+}
+
+.history .history-intro .intro-box .history-img-box1 {
+    width: 166.66%;
+
+    display: flex;
+    width: max-content;
+    animation: slideLeft 20s linear infinite;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.history .history-intro .intro-box .history-img-box2 {
+    width: 166.66%;
+
+    display: flex;
+    width: max-content;
+    animation: slideRight 20s linear infinite;
+}
+
+.history .history-intro .intro-box .history-img-box>div {
+    float: left;
+}
+
+
+.vision {
+    margin-bottom: 100px;
+    
+}
+
+
+
+.vision .vision-content {
+    width: 100%;
+    max-width: 1920px;
+    color: #fff;
+    margin: 0 auto 100px;
+    /* outline: 1px solid tomato; */
+}
+
+.vision .vision-content .vision-title-box {
+    width: 100%;
+    max-width: 1920px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 100px;
+    /* outline: 2px solid blue; */
+}
+
+.vision .vision-content .vision-title-box .vision-img {}
+
+.vision .vision-content .vision-title-box .vision-img img {
+    display: block;
+}
+
+.vision .vision-content .vision-title-box .vision-des {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+
+    /* transform: translateX(-25%);
+    transform: translateY(-25%); */
+
+}
+
+.vision .vision-content .vision-title-box .vision-des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.vision .vision-content .vision-title-box .vision-des p.bigfont {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+
+.vision .vision-content .vision-title-box .vision-des p.smallfont {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 16px;
+}
+
+.vision .vision-content .subtitle {
+    max-width: 1720px;
+    margin: 0 auto 20px;
+    /* outline: 2px solid blue; */
+
+
+}
+
+.vision .vision-content .subtitle p {
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    color: #333;
+}
+
+.vision .vision-content .subtitle p:first-child {
+    float: left;
+}
+.vision .vision-content .subtitle p:last-child {
+    float: right;
+}
+
+.vision .vision-content .vision-intro {
+    width: 100%;
+    max-width: 1720px;
+    height: 500px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    outline: 2px solid blue;
+    
+}
+.vision .vision-content .vision-intro .vision-box  {
+    position: relative;
+}
+.vision .vision-content .vision-intro .vision-box .vision-img {}
+.vision .vision-content .vision-intro .vision-box .vision-img img {
+    display: block;
+}
+.vision .vision-content .vision-intro .vision-box .vision-des {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+.vision .vision-content .vision-intro .vision-box .vision-des h4 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.vision .vision-content .vision-intro .vision-box .vision-des p  {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    font-family: "Outfit", sans-serif;
+    width: 200px;
+    height: 40px;
+    background-color: #113829;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+
+}
+
+.cta-btn a {
+    color: #fff;
+}
+.cta-btn:hover {
+    background-color: #fff;
+    border: 1px solid #113829;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.cta-btn:hover a {
+    color: #113829;
+}
+
+
+
+.epilogue {
+    margin-bottom: 100px;
+    
+}
+
+
+
+.epilogue .epilogue-content {
+    width: 100%;
+    max-width: 1920px;
+    color: #fff;
+    position: relative;
+    margin: 0 auto 100px;
+    /* outline: 1px solid tomato; */
+}
+
+.epilogue .epilogue-content .vision-title-box {
+    width: 100%;
+    max-width: 1920px;
+    text-align: center;
+    
+    margin: 0 auto 100px;
+    /* outline: 2px solid blue; */
+}
+
+.vision .vision-content .vision-title-box .vision-img {}
+
+.epilogue .epilogue-content .epilogue-img img {
+    display: block;
+}
+
+.epilogue .epilogue-content .epilogue_title {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+
+    transform: translateX(-35%);
+    transform: translateY(-40%);
+
+}
+
+.vision .vision-content .vision-title-box .vision-des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.epilogue .epilogue-content .epilogue_title p.bigfont{
+    font-family: "Asta Sans", sans-serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+
+}
+
+.vision .vision-content .vision-title-box .vision-des p.smallfont {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 16px;
+}
+
+.epilogue .epilogue-content .epilogue_title .cta-btn {
+    margin: 0 auto;
+    
+}

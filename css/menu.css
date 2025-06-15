@@ -1,0 +1,538 @@
+@charset 'utf-8';
+
+.main {
+    /* margin-bottom: 100px; */
+}
+
+.main .main-content {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+
+}
+
+.main .main-content .main-img img {
+    display: block;
+}
+
+.main .main-content .main-logo_title {
+    color: #fff;
+
+    position: absolute;
+    left: 32%;
+    top: 35%;
+
+    transform: translateX(-35%);
+    transform: translateY(-35%);
+
+    text-align: center;
+
+}
+
+.main .main-content .main-logo_title h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.main .main-content .main-logo_title p {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}
+
+.main .main-content .main-logo_title p.bigfont {
+    font-family: "Special Elite", system-ui;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main .main-content .main-logo_title p.smallfont {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.menu {
+    margin-bottom: 100px;
+}
+
+.menu .menu-title-box {
+    width: 100%;
+    max-width: 1920px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 100px;
+
+}
+
+.menu .menu-title-box .blending-img {}
+
+.menu .menu-title-box .blending-img img {
+    display: block;
+}
+
+.menu .menu-title-box .blending-des {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+
+    transform: translateX(-35%);
+    transform: translateY(-50%);
+}
+
+.menu .menu-title-box .blending-des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.menu .menu-title-box .blending-des p {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 24px;
+
+}
+
+
+.card-box {
+    max-width: 960px;
+    margin: 0 auto;
+    /* 가운데 정렬 */
+    padding: 20px 0;
+}
+
+.card {
+    float: left;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    background: #fff;
+    padding: 20px 10px;
+    border-radius: 12px;
+    border: 5px solid #F6EBE3;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card h2::after,
+.card h3::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    /* background: pink; */
+    margin: 8px auto 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.card .desc {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+    word-break: keep-all;
+}
+
+.card p span {
+    font-size: 24px;
+    color: #113928;
+}
+
+.card .line {
+    height: 1px;
+    border-top: 2px dashed #444;
+    margin: 12px 0;
+}
+
+.card .image {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+
+}
+
+hr.section-line {
+    border: none;
+    background-color: #eee;
+    width: 1720px;
+    padding: 2px 0;
+    margin: 0 auto 100px;
+    
+}
+
+.latte {
+    margin-bottom: 100px;
+}
+
+.latte .latte-title_des {
+    max-width: 1920px;
+    color: #333;
+    text-align: center;
+    margin: 0 auto 100px;
+    /* outline: 2px solid blue; */
+}
+
+.latte .latte-title_des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.latte .latte-title_des p {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 24px;
+}
+
+.latte .latte-wrap {
+    
+    max-width: 1720px;
+    text-align: left;
+    margin: 0 auto;
+    /* outline: 2px solid blue; */
+}
+
+.latte .latte-wrap .latte-intro {
+    margin: 0 0 20px 20px;
+}
+
+.latte .latte-wrap .latte-intro p:first-child {
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.latte .latte-wrap .latte-intro p:last-child {
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.latte .latte-wrap .latte-box {
+    background-color: #F6EBE3;
+    border-radius: 24px;
+    /* border: 2px dotted #0094ff; */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.latte .latte-wrap .latte-box>div {}
+
+.latte .latte-wrap .latte-box>div~div {
+    margin-left: 2%;
+}
+
+.latte .latte-wrap .latte-box .latte-img {
+    width: 40%;
+    border: 10px solid #F6EBE3;
+    border-radius: 50px;
+    overflow: hidden;
+    float: left;
+}
+
+.latte .latte-wrap .latte-box .latte-img img {
+    width: 100%;
+    display: block;
+}
+
+.latte .latte-wrap .latte-box .latte-des {
+    float: left;
+    width: calc(100% - 43%);
+    /* 이미지 너비 + 여백 */
+    margin-left: 20px;
+    box-sizing: border-box;
+    /* outline: 2px solid blue; */
+}
+
+.latte .latte-wrap .latte-box .latte-des h4 {
+    font-family: "Outfit", sans-serif;
+    /* outline: 2px solid blue; */
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.latte .latte-wrap .latte-box .latte-des p {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.latte .latte-wrap .latte-box .latte-des .strong {
+    font-family: "IM Fell English SC",serif;
+    color: #113928;
+}
+
+.cta-btn {
+    font-family: "Outfit", sans-serif;
+    width: 200px;
+    height: 40px;
+    background-color: #113829;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+
+}
+
+.cta-btn a {
+    color: #fff ;
+}
+
+.cta-btn:hover {
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.cta-btn:hover a {
+    color: #113829;
+}
+
+
+.handmade {
+    margin-bottom: 100px;
+}
+
+.handmade .handmade-title_des {
+    max-width: 1920px;
+    color: #333;
+    text-align: center;
+    margin: 0 auto 100px;
+    /* outline: 2px solid blue; */
+}
+
+.handmade .handmade-title_des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.handmade .handmade-title_des p {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 24px;
+}
+
+
+.handmade .handmade-wrap {
+    
+    max-width: 1720px;
+    text-align: left;
+    margin: 0 auto;
+    /* outline: 2px solid blue; */
+}
+
+.handmade .handmade-wrap .handmade-intro {
+    margin: 0 0 20px 20px;
+}
+
+.handmade .handmade-wrap .handmade-intro p:first-child {
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.handmade .handmade-wrap .handmade-intro p:last-child {
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.handmade-wrap .handmade-box_wrap {
+    width: 125%;
+    outline: 2px solid tomato;
+
+}
+
+.handmade-wrap .handmade-box {
+    outline: 2px solid blue;
+    width: 18.4%;
+    float: left;
+    letter-spacing: -1px;
+}
+
+.handmade-wrap .handmade-box~.handmade-box {
+    margin-left: 2%;
+}
+
+.handmade-wrap .handmade-box .handmade-img {
+    border-radius: 24px;
+    overflow: hidden;
+}
+.handmade-wrap .handmade-box .handmade-img img {
+    width: 100%;
+    display: block;
+}
+.handmade-wrap .handmade-box .handmade-des {
+    text-align: center;
+    padding: 10px 0;
+}
+.handmade-wrap .handmade-box .handmade-des h4 {
+    font-size: 36px;
+}
+.handmade-wrap .handmade-box .handmade-des p {
+    font-size: 24px;
+}
+
+.handmade-wrap .handmade-box .handmade-des .cta-btn {
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.handmade-wrap .handmade-box .handmade-des .cta-btn a:hover {
+    border: 1px solid #113829;
+}
+.handmade-wrap .handmade-box .handmade-des .cta-btn p{
+    margin: 10px 0;
+
+}
+
+
+
+.brewery {
+    margin-bottom: 100px;
+}
+
+.brewery .brewery-des {
+    max-width: 1920px;
+    color: #333;
+    text-align: center;
+    margin: 0 auto;
+    word-break: keep-all;
+    /* outline: 2px solid blue; */
+}
+
+.brewery .brewery-des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.brewery .brewery-des p {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 24px;
+}
+
+.brewery .brewery-wrap {
+    
+    max-width: 1720px;
+    text-align: left;
+    margin: 0 auto;
+    /* outline: 2px solid blue; */
+}
+
+.brewery .brewery-wrap .brewery-intro {
+    margin: 0 0 20px 20px;
+}
+
+.brewery .brewery-wrap .brewery-intro p:first-child {
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.brewery .brewery-wrap .brewery-intro p:last-child {
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brewery-wrap .brewery-box_wrap {
+    width: 125%;
+    outline: 2px solid tomato;
+
+}
+
+.brewery-wrap .brewery-box {
+    outline: 2px solid blue;
+    width: 18.4%;
+    float: left;
+    letter-spacing: -1px;
+    word-break: keep-all;
+}
+
+.brewery-wrap .brewery-box~.brewery-box {
+    margin-left: 2%;
+}
+
+.brewery-wrap .brewery-box .brewery-img {
+    border-radius: 24px;
+    overflow: hidden;
+}
+.brewery-wrap .brewery-box .brewery-img img {
+    width: 100%;
+    display: block;
+}
+.brewery-wrap .brewery-box .brewery-des {
+    text-align: center;
+    padding: 10px 0;
+}
+.brewery-wrap .brewery-box .brewery-des h4 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.brewery-wrap .brewery-box .brewery-des p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.brewery-wrap .brewery-box .brewery-des .cta-btn {
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.brewery-wrap .brewery-box .brewery-des .cta-btn a:hover {
+    border: 1px solid #113829;
+}
+.brewery-wrap .brewery-box .brewery-des .cta-btn p{
+    margin: 10px 0;
+
+}
+
+
