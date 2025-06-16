@@ -416,6 +416,7 @@ hr.section-line {
     max-width: 1720px;
     text-align: center;
     margin: 0 auto;
+    /* overflow: hidden; */
     outline: 2px solid blue;
 }
 
