@@ -121,7 +121,6 @@
     border-radius: 12px;
     border: 5px solid #F6EBE3;
     box-sizing: border-box;
-    box-sizing: border-box;
     text-align: center;
 }
 
@@ -170,17 +169,19 @@
     margin: 12px 0;
 }
 
-.card .image {
+.image {
     width: 300px;
     padding: 0;
-    margin: 0;
     background: none;
-    border: none;
+    border-radius: 12px;
+    border: 0;
+    overflow: hidden;
 }
 
 .image img {
     width: 100%;
     display: block;
+
 
 }
 
@@ -195,6 +196,7 @@ hr.section-line {
 
 .latte {
     margin-bottom: 100px;
+    
 }
 
 .latte .latte-title_des {
@@ -218,11 +220,14 @@ hr.section-line {
 }
 
 .latte .latte-wrap {
-    
+    width: 100%;
     max-width: 1720px;
+    /* overflow: hidden; */
     text-align: left;
     margin: 0 auto;
-    /* outline: 2px solid blue; */
+    outline: 2px solid blue;
+
+    position: relative;
 }
 
 .latte .latte-wrap .latte-intro {
@@ -241,9 +246,16 @@ hr.section-line {
     font-weight: bold;
 }
 
+.latte .latte-wrap .latte-box-slider {
+    width: 400%;
+    
+}
+
 
 .latte .latte-wrap .latte-box {
-    background-color: #F6EBE3;
+    float: left;
+    width: 25%;
+    /* background-color: #F6EBE3; */
     border-radius: 24px;
     /* border: 2px dotted #0094ff; */
     margin-bottom: 20px;
@@ -262,7 +274,7 @@ hr.section-line {
 
 .latte .latte-wrap .latte-box .latte-img {
     width: 40%;
-    border: 10px solid #F6EBE3;
+    /* border: 10px solid #F6EBE3; */
     border-radius: 50px;
     overflow: hidden;
     float: left;
@@ -303,6 +315,8 @@ hr.section-line {
     color: #113928;
 }
 
+
+
 .cta-btn {
     font-family: "Outfit", sans-serif;
     width: 200px;
@@ -327,6 +341,46 @@ hr.section-line {
 
 .cta-btn:hover a {
     color: #113829;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* 니가 가진 크기만큼의 수치를 이동해 */
+
+    /* outline: 2px solid greenyellow; */
+
+}
+
+.btn.prev {
+    left: -60px;
+    transition: all 0.3s ease;
+    outline: 1px solid blue;
+    
+}
+
+
+.btn.prev:hover {
+    transform: scale(1.2);
+}
+
+
+.btn.next {
+    right: -60px;
+    transition: all 0.3s ease;
+}
+
+
+.btn.next:hover {
+    transform: scale(1.2);
+}
+
+.btn img {
+    width: 70px;
+    display: block;
+
 }
 
 
