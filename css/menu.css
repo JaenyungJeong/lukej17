@@ -195,8 +195,9 @@ hr.section-line {
 }
 
 .latte {
-    margin-bottom: 100px;
-    
+    max-width: 1720px;
+    margin:0 auto 100px;
+    position: relative;
 }
 
 .latte .latte-title_des {
@@ -222,12 +223,12 @@ hr.section-line {
 .latte .latte-wrap {
     width: 100%;
     max-width: 1720px;
-    /* overflow: hidden; */
+    overflow: hidden;
     text-align: left;
     margin: 0 auto;
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
 
-    position: relative;
+    
 }
 
 .latte .latte-wrap .latte-intro {
@@ -347,17 +348,17 @@ hr.section-line {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%); /* 니가 가진 크기만큼의 수치를 이동해 */
+    top: 70%;
+    transform: translateY(-70%); /* 니가 가진 크기만큼의 수치를 이동해 */
 
     /* outline: 2px solid greenyellow; */
 
 }
 
 .btn.prev {
-    left: -60px;
-    transition: all 0.3s ease;
-    outline: 1px solid blue;
+    left: -80px;
+    transition: all 0.3s ease-in-out;
+    /* outline: 1px solid blue; */
     
 }
 
@@ -369,7 +370,7 @@ hr.section-line {
 
 .btn.next {
     right: -60px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 
