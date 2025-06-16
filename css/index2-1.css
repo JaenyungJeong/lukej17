@@ -247,6 +247,8 @@
         font-weight: 700;
     }
 
+    
+
     .cta-button2 {
         /* display: inline-block; */
         /* padding: 10px 25px;
@@ -405,17 +407,19 @@
 
     .intro .cafe-intro .intro-title p:first-child {
         font-size: 32px;
-        font-family: "IM Fell English SC", serif;
+        font-family: "Outfit",sans-serif;
+        margin-bottom: 10px;
     }
 
     .intro .cafe-intro .intro-title h3 {
-        font-family: "IM Fell English SC", serif;
+        font-family: "Outfit",sans-serif;
         font-size: 60px;
         font-weight: 700;
+        margin-bottom: 10px;
     }
 
     .intro .cafe-intro .intro-title p:last-child {
-        font-family: "Special Elite", system-ui;
+        font-family: "Outfit",sans-serif;
         font-size: 24px;
     }
 
@@ -425,8 +429,8 @@
         /* outline: 2px solid blue; */
         margin-bottom: 40px;
         overflow: hidden;
-        border: 5px solid #eee;
-        padding: 10px 10px;
+        border: 3px solid #eee;
+        padding: 5px 5px;
         box-sizing: border-box;
     }
 
@@ -461,7 +465,7 @@
     }
 
     .intro .cafe-intro .intro-box li .des-box h2 {
-        font-family: "IM Fell English SC", serif;
+        font-family: "Outfit",sans-serif;
         font-size: 60px;
         font-weight: 600;
         text-transform: uppercase;
@@ -479,8 +483,8 @@
         width: 49%;
         float: left;
         overflow: hidden;
-        border: 5px solid #eee;
-        padding: 10px 10px;
+        border: 3px solid #eee;
+        padding: 5px 5px;
         box-sizing: border-box;
 
     }
@@ -534,17 +538,19 @@
 
     .intro .content .content-box .intro-title p:first-child {
         font-size: 32px;
-        font-family: "IM Fell English SC", serif;
+        font-family: "Outfit",sans-serif;
+        margin-bottom: 10px;
     }
 
     .intro .content .content-box .intro-title h3 {
-        font-family: "IM Fell English SC", serif;
+        font-family: "Outfit",sans-serif;
         font-size: 60px;
         font-weight: 700;
+        margin-bottom: 10px;
     }
 
     .intro .content .content-box .intro-title p:last-child {
-        font-family: "Special Elite", system-ui;
+        font-family: "Outfit",sans-serif;
         font-size: 24px;
     }
 
@@ -572,14 +578,14 @@
     }
 
     .intro .content .content-box .box .content-intro {
-        font-family: "Special Elite", system-ui;
+        font-family: "Outfit",sans-serif;
         color: #333;
         text-align: center;
 
     }
 
     .intro .content .content-box .box .content-intro h2 {
-        font-family: "IM Fell English SC", serif;
+        font-family: "Outfit",sans-serif;
         font-size: 40px;
         font-weight: 700;
         margin: 50px 0;
@@ -637,11 +643,13 @@
         font-size: 32px;
         font-weight: bold;
         margin-bottom: 10px;
+        font-family: "Outfit",sans-serif;
     }
 
     .intro .content .favorite-des p:last-child {
         font-size: 24px;
         margin-bottom: 40px;
+        font-family: "Outfit",sans-serif;
     }
 
     .intro .content .favorite-box {}
@@ -706,18 +714,21 @@
 
     .intro .content .intro-title p:first-child {
         font-size: 32px;
-        font-family: "IM Fell English SC", serif;
+        font-family: "Outfit",sans-serif;
+        margin-bottom: 10px;
     }
 
     .intro .content .intro-title h3 {
-        font-family: "IM Fell English SC", serif;
+        font-family: "Outfit",sans-serif;
         font-size: 60px;
         font-weight: 700;
+        margin-bottom: 10px;
     }
 
     .intro .content .intro-title p:last-child {
-        font-family: "Special Elite", system-ui;
+        font-family: "Outfit",sans-serif;
         font-size: 24px;
+        margin-bottom: 10px;
     }
 
 
