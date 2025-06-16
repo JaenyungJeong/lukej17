@@ -566,8 +566,8 @@
 
     .intro .content .content-box .box .content-img {
         overflow: hidden;
-        border: 5px solid #eee;
-        padding: 10px 10px;
+        border: 3px solid #eee;
+        padding: 5px 5px;
         box-sizing: border-box;
     }
 
@@ -741,7 +741,7 @@
         /* border-radius: 30px; */
         padding: 5px 5px;
         overflow: hidden;
-        border: 5px solid #eee;
+        border: 3px solid #eee;
         box-sizing: border-box;
         margin-bottom: 80px;
 
@@ -1027,8 +1027,8 @@
 
     footer .info .copy p:last-child {
         font-family: "Outfit", sans-serif;
-        font-size: 24px;
-        font-weight: 
+        font-size: 16px;
+        color: rgba(230,230,230,0.6);
     }
 
     footer .info .inner {
@@ -1049,9 +1049,9 @@
     }
 
     footer .info .inner .inner-box ul li {
-        color: #eee;
+        color: rgba(230,230,230,0.6);
     }
 
     footer .info .inner .inner-box ul li a {
-        color: #fff;
+        color: rgba(230,230,230,0.6);
     }

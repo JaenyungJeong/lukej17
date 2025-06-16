@@ -73,15 +73,14 @@ footer .info .copy {
 
 footer .info .copy p:first-child {
     font-family: "Outfit", sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
 }
 
 footer .info .copy p:last-child {
     font-family: "Outfit", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: darkseagreen;
+    font-size: 16px;
+    color: rgba(230,230,230,0.6);
 }
 
 footer .info .inner {
@@ -104,11 +103,11 @@ footer .info .inner .inner-box h3 {
 }
 
 footer .info .inner .inner-box ul li {
-    color: darkseagreen;
+    color: rgba(230,230,230,0.6);
 }
 
 footer .info .inner .inner-box ul li a {
-    color: darkseagreen;
+    color: rgba(230,230,230,0.6);
 }
 
 footer .info .inner .inner-box ul li a:hover {
