@@ -348,8 +348,9 @@ hr.section-line {
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 70%;
-    transform: translateY(-70%); /* 니가 가진 크기만큼의 수치를 이동해 */
+    top: 65%;
+    /* transform: translateY(-70%); 해당 수치 때문에 .btn 버튼이 우측하단으로 커지는 문제발생 scale 적용 시 기준점이 무너지는 현상발생.   transform 수치는 기준점 오리진을 기준으로 center center로 되어 있음*/
+     /* 니가 가진 크기만큼의 수치를 이동해 */ 
 
     /* outline: 2px solid greenyellow; */
 
@@ -379,7 +380,7 @@ hr.section-line {
 }
 
 .btn img {
-    width: 70px;
+    width: 50px;
     display: block;
 
 }
@@ -413,13 +414,14 @@ hr.section-line {
 .handmade .handmade-wrap {
     
     max-width: 1720px;
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
-    /* outline: 2px solid blue; */
+    outline: 2px solid blue;
 }
 
 .handmade .handmade-wrap .handmade-intro {
     margin: 0 0 20px 20px;
+    text-align: left;
 }
 
 .handmade .handmade-wrap .handmade-intro p:first-child {
@@ -437,11 +439,12 @@ hr.section-line {
 .handmade-wrap .handmade-box_wrap {
     width: 125%;
     outline: 2px solid tomato;
-
+    margin-bottom: 20px;
+    
 }
 
 .handmade-wrap .handmade-box {
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     width: 18.4%;
     float: left;
     letter-spacing: -1px;
@@ -484,6 +487,44 @@ hr.section-line {
     margin: 10px 0;
 
 }
+
+
+
+.btn2 {
+    display: inline-block;
+    outline: 2px solid blue;
+    margin: 0 25px;
+}
+
+.btn2.prev2 {
+    
+    transition: all 0.3s ease-in-out;
+    /* outline: 1px solid blue; */
+    
+}
+
+
+.btn2.prev2:hover {
+    transform: scale(1.2);
+}
+
+
+.btn2.next2 {
+    transition: all 0.3s ease-in-out;
+}
+
+
+.btn2.next2:hover {
+    transform: scale(1.2);
+}
+
+.btn2 img {
+    width: 50px;
+    display: block;
+    
+
+}
+
 
 
 
