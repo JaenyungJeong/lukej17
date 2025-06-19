@@ -325,6 +325,23 @@ body {
     font-size: 16px;
 }
 
+.vision-title {
+    font-family: "Outfit",sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.vision-title h3 {
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.vision-title p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
 .vision .vision-content .subtitle {
     max-width: 1720px;
     margin: 0 auto 20px;
