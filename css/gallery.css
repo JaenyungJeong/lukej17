@@ -114,13 +114,14 @@
     justify-content: center;
 }
 
-.cta-wrap > p {
+.cta-wrap>p {
     font-size: 24px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 50px;
+    text-decoration: underline;
 }
 
 .cta-button2 {
@@ -176,7 +177,7 @@
 }
 
 .gallery {
-    font-family: "Outfit",sans-serif;
+    font-family: "Outfit", sans-serif;
     width: 100%;
     max-width: 1920px;
     height: 900px;
@@ -186,24 +187,25 @@
     /* overflow: hidden; */
 }
 
-.gallery > p {
+.gallery>p {
     font-size: 0;
-    
+
 }
 
 .gallery .gallery-artist {
     max-width: 1320px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .gallery .gallery-artist .gallery-box {
-    
+
     height: 100px;
     /* outline: 3px solid blue; */
     margin: 50px auto 50px;
 }
 
-.gallery .gallery-artist .gallery-box > h3 {
+.gallery .gallery-artist .gallery-box>h3 {
     font-size: 60px;
     font-weight: bold;
     float: left;
@@ -215,35 +217,49 @@
     line-height: 1;
 }
 
-.gallery .gallery-artist .cta-wrap > p {
-    
+.gallery .gallery-artist .cta-wrap>p {
+
     /* outline: 2px solid tomato; */
 }
 
-.gallery .gallery-artist .cta-wrap > div {
-    outline: 2px solid tomato;
+.gallery .gallery-artist .cta-wrap>div {
+    /* outline: 2px solid tomato; */
 }
 
-.gallery .gallery-artist .cta-wrap > p, .gallery .gallery-artist .cta-wrap > div {
+.gallery .gallery-artist .cta-wrap>p,
+.gallery .gallery-artist .cta-wrap>div {
     float: left;
 }
+
 .gallery .gallery-artist .gallery-box {}
 
-.gallery .gallery-artist .artist-content {}
+.gallery .gallery-artist .artist-content {
+    
+}
+
 .gallery .gallery-artist .artist-content ul {
     width: 700%;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
+
+    position: relative;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    /* 함수 flow 의 left 작동시 필요 */
 }
+
 .gallery .gallery-artist .artist-content ul li {
     width: 14.28571428571429%;
     float: left;
-    padding: 0 20px;
+    padding-right: 0 20px;
+    /* border: 2px solid #daa520; */
     box-sizing: border-box;
-    
+
     position: relative;
-    
+
 }
-.gallery .gallery-artist .artist-content ul li > div {
+
+.gallery .gallery-artist .artist-content ul li>div {
     width: 60%;
 
     position: absolute;
@@ -252,17 +268,24 @@
 
     transform: translateY(-50%);
 }
+
 .gallery .gallery-artist .artist-content ul li img {
     display: block;
-    
-}
-.gallery .gallery-artist .artist-content ul li img  {}
 
-.artist-des > h3{
+}
+
+.gallery .gallery-artist .artist-content ul li img {}
+
+.artist-des {}
+
+.artist-des>h3 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .artist-des > p {
     font-size: 18px;
+    color: #555;
+    line-height: 2;
 }
