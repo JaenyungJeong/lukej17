@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     //마우스 오버 시 멈춤, 아웃시 다시 실행
 
-     $('.flow li').hover(function(){
+    $('.flow li').hover(function(){
         //mouseenter
         // 1) 자동실행 멈춤 - 인터벌 지우기
         // 2) .caption 등장!
@@ -35,7 +35,7 @@ $(document).ready(function(){
                 display: 'block'
             });
         });
-    }); 
+    });
 
 });
 
