@@ -1,5 +1,6 @@
 //gallery.js
 
+
 var autocall; //인터벌을 담을 변수!
 
 $(document).ready(function(){
