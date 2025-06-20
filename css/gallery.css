@@ -61,3 +61,208 @@
 
 }
 
+
+
+.menu {
+    margin-bottom: 100px;
+}
+
+.menu .menu-title-box {
+    width: 100%;
+    max-width: 1920px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 100px;
+
+}
+
+.menu .menu-title-box .blending-img {
+    outline: 1px solid blue;
+}
+
+.menu .menu-title-box .blending-img img {
+    display: block;
+}
+
+.menu .menu-title-box .blending-des {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.menu .menu-title-box .blending-des h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.menu .menu-title-box .blending-des p {
+    font-family: "Asta Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+
+.cta-wrap {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-wrap > p {
+    font-size: 24px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.cta-button2 {
+    /* display: inline-block; */
+    /* padding: 10px 25px;
+    background: rgba(255, 255, 255, 0.2);
+
+    color: #F6EBE3;
+    border: 2px solid #F6EBE3;
+    border-radius: 50px;
+    font-size: 16px;
+    text-decoration: none; */
+    transition: all 0.3s ease;
+    margin-right: 10px;
+
+}
+
+
+.textContent2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#textContent2>a,
+#textContent2>span {
+    float: left;
+}
+
+.cta-button2 img {
+    width: 50px;
+    display: block;
+    color: #F6EBE3;
+
+}
+
+.cta-button2:hover {
+    transform: scale(1.2);
+}
+
+.info-text2 {
+
+    font-family: "Outfit", sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 선택사항 */
+    height: 50px;
+    font-size: 18px;
+    color: #333;
+
+}
+
+.gallery {
+    font-family: "Outfit",sans-serif;
+    width: 100%;
+    max-width: 1920px;
+    height: 900px;
+    margin: 0 auto 100px;
+    background: url(../img/gallery/artist-backimg.jpg) no-repeat top/cover;
+    color: #333;
+    /* overflow: hidden; */
+}
+
+.gallery > p {
+    font-size: 0;
+    
+}
+
+.gallery .gallery-artist {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.gallery .gallery-artist .gallery-box {
+    
+    height: 100px;
+    /* outline: 3px solid blue; */
+    margin: 50px auto 50px;
+}
+
+.gallery .gallery-artist .gallery-box > h3 {
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+}
+
+.gallery .gallery-artist .cta-wrap {
+    float: right;
+    /* outline: 2px solid tomato; */
+    line-height: 1;
+}
+
+.gallery .gallery-artist .cta-wrap > p {
+    
+    /* outline: 2px solid tomato; */
+}
+
+.gallery .gallery-artist .cta-wrap > div {
+    outline: 2px solid tomato;
+}
+
+.gallery .gallery-artist .cta-wrap > p, .gallery .gallery-artist .cta-wrap > div {
+    float: left;
+}
+.gallery .gallery-artist .gallery-box {}
+
+.gallery .gallery-artist .artist-content {}
+.gallery .gallery-artist .artist-content ul {
+    width: 700%;
+    outline: 1px solid blue;
+}
+.gallery .gallery-artist .artist-content ul li {
+    width: 14.28571428571429%;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    
+    position: relative;
+    
+}
+.gallery .gallery-artist .artist-content ul li > div {
+    width: 60%;
+
+    position: absolute;
+    right: 5%;
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+.gallery .gallery-artist .artist-content ul li img {
+    display: block;
+    
+}
+.gallery .gallery-artist .artist-content ul li img  {}
+
+.artist-des > h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.artist-des > p {
+    font-size: 18px;
+}
