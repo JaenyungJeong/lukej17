@@ -293,5 +293,52 @@
 
 
 .exhibition {
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
 }
+
+.exhibition .line {
+    background-color: #000;
+    width: 1320px;
+    height: 1px;
+    margin: 0 auto 100px;
+
+    position: relative;
+}
+
+.exhibition .line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.exhibition .title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.exhibition .exhibition-content .exhibition-box {
+    width: 32%;
+    float: left;
+}
+
+.exhibition .exhibition-content > div~div {
+    margin-left: 2%;
+}
+
+.exhibition .exhibition-content .exhibition-box .exhibition-img{}
+.exhibition .exhibition-content .exhibition-box .exhibition-img img{
+    width: 100%;
+    display: block;
+    outline: 3px solid tomato;
+}
+
+
