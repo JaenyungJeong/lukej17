@@ -397,16 +397,21 @@ body {
 }
 
 .welcome .welcome-content {
+    background-color: #FFF6EF;
     position: relative; /* .welcome-box 와 "welcome-img" 의 기준  */
+    height: 800px;
+    outline: 2px solid blue;
+    
 }
 
 .welcome .welcome-content .welcome-box {
     width: 50%;
-    height: 800px;
 
     position: absolute;
     left: 0;
     top: 50%;
+
+    transform: translateY(-50%);
 }
 
 
@@ -415,14 +420,22 @@ body {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .welcome .welcome-content .welcome-box .title span {
     color: #113829;
 }
 
+.welcome .welcome-content .welcome-box > p {
+    line-height: 2;
+    text-align: center;
+}
+
+.welcome .welcome-content .welcome-box .cta-wrap {
+    justify-content: center;
+}
 .welcome .welcome-content .welcome-img {
-    height: 800px;
     position: absolute;
     right: 0;
 

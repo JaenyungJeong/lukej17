@@ -22,7 +22,9 @@
 
     <!-- <link rel="stylesheet" href="css/footer.css"> -->
 
-    <link rel="stylesheet" href="css/index2-1.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <script src="script/jquery-1.12.4.min.js"></script>
     <script src="script/index2.js"></script>
@@ -32,7 +34,7 @@
             $('.main-img img').hide().fadeIn(3000);
         }); */
 
-        $(window).on('load', function () {
+        /* $(window).on('load', function () {
             $('.main-img img').css('opacity', 1);
         });
 
@@ -42,7 +44,8 @@
 
         $(window).on('load', function () {
             $('.main-img').css('border-radius', '0');
-        });
+        }); */
+
         /* $(function(){
             $('.main-logo_title').delay(1000).fadeIn();
         }); */
@@ -82,43 +85,36 @@
 
         <div class="main-content">
 
-            <div class="main-img-slide active">
-                <div class="main-img">
+            <div class="main-img-slide s1 active" data-seq="0">
+                <!-- <div class="main-img">
                     <img src="img/main/main-img-3.jpg" alt="도심 속 작은 갤러리, 한 잔의 여유">
-                </div>
-
-
+                </div> -->
 
                 <div class="main-logo_title">
-                    <p>urban vintage coffee space</p>
-                    <h2>angle <span class="number">340</span></h2>
-
-                    <br><br>
-                    <p class="bigpont">공간과 디자인<br>일상의 스토리를 담았습니다</p>
-                    <br>
-
-                    <div id="textContent2">
-                        <a href="about.html" class="cta-button2" id="ctaButton"><img src="img/main/cta-btn.png"
-                                alt=""></a>
-                        <span id="infoText" class="info-text2"><a href="#"></a>ANGLE340을 소개합니다</span>
+                    <div class="title-box">
+                        <p>urban vintage coffee space</p>
+                        <h2>angle <span class="number">340</span></h2>
                     </div>
 
-                    <p class="smallpont">Urban Vintage</p>
-                    <br>
-                    <p class="smallpont">낡은 골목 끝, 햇살이 스미는 공간 <br>거친 벽과 따스한 나무결 사이, 한 잔의 커피와 함께 펼쳐지는 작은 전시회<br>바쁜 도시 속,
-                        숨을
-                        고르고 사색할 수 있는 당신만의
-                        아지트 <br>이곳에서, 하루를 예술처럼 채워보세요</p>
+                    <div class="txt-box">
+                        <p class="bigpont">공간과 디자인<br>일상의 스토리를 담았습니다</p>
+
+                        <div id="textContent2">
+                            <a href="about.html" class="cta-button2" id="ctaButton"><img src="img/main/cta-btn.png"
+                                    alt=""></a>
+    
+                            <span id="infoText" class="info-text2"><a href="#"></a>ANGLE340을 소개합니다</span>
+                        </div>
+                    </div>
+
                 </div>
-
-
 
             </div>
 
-            <div class="main-img-slide">
-                <div class="main-img">
+            <div class="main-img-slide s2" data-seq="1">
+                <!-- <div class="main-img">
                     <img src="img/main/main-img-3-4.jpg" alt="도심 속 작은 갤러리, 한 잔의 여유">
-                </div>
+                </div> -->
 
                 <div class="main-logo_title">
                     <p>urban vintage coffee space</p>
@@ -142,10 +138,10 @@
 
             </div>
 
-            <div class="main-img-slide">
-                <div class="main-img">
+            <div class="main-img-slide s3" data-seq="2">
+                <!-- <div class="main-img">
                     <img src="img/main/main-img-3-5.jpg" alt="도심 속 작은 갤러리, 한 잔의 여유">
-                </div>
+                </div> -->
 
                 <div class="main-logo_title">
                     <p>urban vintage coffee space</p>
@@ -171,10 +167,10 @@
 
             </div>
 
-            <div class="main-img-slide">
-                <div class="main-img">
+            <div class="main-img-slide s4" data-seq="3">
+                <!-- <div class="main-img">
                     <img src="img/main/main-img-3-7.jpg" alt="도심 속 작은 갤러리, 한 잔의 여유">
-                </div>
+                </div> -->
 
                 <div class="main-logo_title">
                     <p>urban vintage coffee space</p>
@@ -199,10 +195,10 @@
 
             </div>
 
-            <div class="main-img-slide">
-                <div class="main-img">
+            <div class="main-img-slide s5" data-seq="4">
+                <!-- <div class="main-img">
                     <img src="img/main/main-img-3-8.jpg" alt="도심 속 작은 갤러리, 한 잔의 여유">
-                </div>
+                </div> -->
 
                 <div class="main-logo_title">
                     <p>urban vintage coffee space</p>
@@ -229,19 +225,15 @@
 
             </div>
 
-            <!-- <ul class="pager">
-                <li id="btn0" class="active">●</li>
-                <li id="btn1">●</li>
-                <li id="btn2">●</li>
-                <li id="btn3">●</li>
-                <li id="btn4">●</li>
-            </ul> -->
-
-            <!-- <div class="totop">
-                <a href="#">Top</a>
-            </div> -->
-
         </div>
+
+        <ul class="pager">
+            <li class="active">●</li>
+            <li>●</li>
+            <li>●</li>
+            <li>●</li>
+            <li>●</li>
+        </ul>
     </main>
 
     <section class="intro">
@@ -305,11 +297,6 @@
                     <p>View more</p>
                 </a>
             </div>
-
-
-
-
-
 
         </article>
 
@@ -487,43 +474,43 @@
 
             <div class="differ-box bt1">
                 <div class="differ-box-inner">
-                <div>
-                    <img src="img/main/badge 1.png" alt="">
-                </div>
+                    <div>
+                        <img src="img/main/badge 1.png" alt="">
+                    </div>
 
-                <div class="differ-des">
-                    <p>High Quality</p>
-                    <p>우리는 최상의 <br>
-                        품질을 고집합니다</p>
+                    <div class="differ-des">
+                        <p>High Quality</p>
+                        <p>우리는 최상의 <br>
+                            품질을 고집합니다</p>
+                    </div>
                 </div>
-            </div>
-            </div>
-
-            <div class="differ-box bt1">
-                <div class="differ-box-inner">
-                <div>
-                    <img src="img/main/best-price 1.png" alt="">
-                </div>
-
-                <div class="differ-des">
-                    <p>Extraordinary </p>
-                    <p>한 번도 경험하지 못한 <br>
-                        새로운 커피의 세계</p>
-                </div>
-            </div>
             </div>
 
             <div class="differ-box bt1">
                 <div class="differ-box-inner">
-                <div>
-                    <img src="img/main/coffee-cup 1.png" alt="">
-                </div>
+                    <div>
+                        <img src="img/main/best-price 1.png" alt="">
+                    </div>
 
-                <div class="differ-des">
-                    <p>Affordable Price</p>
-                    <p>부담 없는 가격으로 즐기는 <br>고품질 커피</p>
+                    <div class="differ-des">
+                        <p>Extraordinary </p>
+                        <p>한 번도 경험하지 못한 <br>
+                            새로운 커피의 세계</p>
+                    </div>
                 </div>
             </div>
+
+            <div class="differ-box bt1">
+                <div class="differ-box-inner">
+                    <div>
+                        <img src="img/main/coffee-cup 1.png" alt="">
+                    </div>
+
+                    <div class="differ-des">
+                        <p>Affordable Price</p>
+                        <p>부담 없는 가격으로 즐기는 <br>고품질 커피</p>
+                    </div>
+                </div>
             </div>
 
 

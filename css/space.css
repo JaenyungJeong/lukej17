@@ -1,32 +1,42 @@
 @charset "utf-8";
 
-.main {
-    /* margin-bottom: 100px; */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+    background: url(../img/space/space-main2.jpg) no-repeat top/cover;
+
+    position: relative; /* .main-logo_title의 기준 */
 }
 
-.main .main-content {
+/* .main .main-content {
     width: 100%;
     height: 100%;
     max-width: 1920px;
     margin: 0 auto 100px;
     position: relative;
-    text-align: left;
-
 }
-
-.main .main-content .main-img img {
-    display: block;
-}
-
+ */
 .main .main-content .main-logo_title {
     color: #fff;
 
     position: absolute;
-    left: 32%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    /* left: 32%;
     top: 35%;
 
     transform: translateX(-35%);
-    transform: translateY(-35%);
+    transform: translateY(-35%); */
 
     text-align: center;
 
@@ -61,8 +71,11 @@
 
 }
 
-.space {
+section.space {
+    width: 100%;
     
+
+    outline: 2px solid red;
 }
 
 .space .line {
@@ -87,12 +100,15 @@
 }
 
 .space .content-box {
-    
+    width: 100%;
 }
-.space .content-box .content-wrap1 {
+.space .content-box .inbox {
     width: 100%;
     max-width: 1720px;
     margin: 0 auto;
+}
+.space .content-box .content-wrap1 {
+    
     /* outline: 3px solid blue; */
     margin-bottom: 100px;
 }

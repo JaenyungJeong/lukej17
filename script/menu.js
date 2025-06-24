@@ -52,7 +52,7 @@ $(document).ready(function () {
     $('.handmade-box_wrap .handmade-box:last').prependTo('.handmade-box_wrap');
 
     //li 한 칸의 크기 구하기 = 슬라이드 하나의 크기 구하기!
-    var liW = $('.handmade-box_wrap .handmade-box').outerWidth();
+    var liW = $('.handmade-box_wrap .handmade-box').outerWidth(true);
     console.log('li하나의 너비:' + liW);
 
     $('.handmade-box_wrap').css('margin-left', -liW);
@@ -61,6 +61,9 @@ $(document).ready(function () {
     $('.next2 a').click(function (e) {
 
         e.preventDefault();
+
+        //맨 앞에 있는 박스를 맨 뒤로 보낸 뒤에 이동! 
+        
         $('.handmade-box_wrap').animate({
             marginLeft: '-=' + liW //클릭했을 때 마진 -1800이 되어야함 
         }, 800, function () {

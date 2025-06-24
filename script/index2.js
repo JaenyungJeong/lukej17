@@ -112,6 +112,7 @@ $(document).ready(function () {
     // 마우스를 올렸을 때 자동실행 멈춤 -> clearInterval()
     //마우스가 벗어나면 자동실행!
 
+
     var autoCall; //인터벌을 담는 변수
 
     autoCall = setInterval(fadeSlide, 5000);
@@ -151,6 +152,16 @@ function fadeSlide() {
         firstSlide.removeClass('active');
 
     });
+
+    //페이저 변경 함수 호출
+    pager();
+}
+
+function pager (){
+    var idx = $('.main-img-slide').eq(1).attr('data-seq');
+    console.log('다음 슬라이드의 data-seq: ' +idx);
+
+    $('.pager li').eq(idx).addClass('active').siblings().removeClass('active');
 }
 
 

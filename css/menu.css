@@ -1,10 +1,22 @@
 @charset 'utf-8';
 
-.main {
-    /* margin-bottom: 100px; */
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+    background: url(../img/about/about-main-2.jpg) no-repeat top/cover;
+
+    position: relative; /* .main-logo_title의 기준 */
 }
 
-.main .main-content {
+/* .main .main-content {
     width: 100%;
     height: 100%;
     max-width: 1920px;
@@ -12,21 +24,25 @@
     position: relative;
     text-align: left;
 
-}
+} 
 
 .main .main-content .main-img img {
     display: block;
-}
+}*/
 
 .main .main-content .main-logo_title {
     color: #fff;
 
     position: absolute;
-    left: 32%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    /* left: 32%;
     top: 35%;
 
     transform: translateX(-35%);
-    transform: translateY(-35%);
+    transform: translateY(-35%); */
 
     text-align: center;
 
@@ -421,8 +437,10 @@ hr.section-line {
 }
 
 .handmade .handmade-wrap .handmade-intro {
-    margin: 0 0 20px 20px;
+    /* margin: 0 0 20px 20px; */
+    padding-left: 20px;
     text-align: left;
+    margin-bottom: 40px;
 }
 
 .handmade .handmade-wrap .handmade-intro p:first-child {
@@ -437,8 +455,12 @@ hr.section-line {
     font-weight: bold;
 }
 
+.handmade-wrap .viewer {
+    /* background-color: pink; */
+}
+
 .handmade-wrap .handmade-box_wrap {
-    width: 125%;
+    width: 200%;
     /* outline: 2px solid tomato; */
     margin-bottom: 20px;
     
@@ -446,14 +468,18 @@ hr.section-line {
 
 .handmade-wrap .handmade-box {
     /* outline: 2px solid blue; */
-    width: 18.4%;
+    /* width: 18.4%; */
+    width: 11.5%;
+    margin: 0 0.5%;
     float: left;
     letter-spacing: -1px;
+
+    outline: 2px solid red;
 }
 
-.handmade-wrap .handmade-box~.handmade-box {
+/* .handmade-wrap .handmade-box~.handmade-box {
     margin-left: 2%;
-}
+} */
 
 .handmade-wrap .handmade-box .handmade-img {
     border-radius: 24px;
@@ -468,17 +494,21 @@ hr.section-line {
     padding: 10px 0;
 }
 .handmade-wrap .handmade-box .handmade-des h4 {
-    font-size: 36px;
+    font-size: 26px;
+    font-weight: 700;
 }
 .handmade-wrap .handmade-box .handmade-des p {
-    font-size: 24px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    height: 52px; /* 최대 2줄을 기준으로 높이설정 */
+     word-break: keep-all;
 }
 
 .handmade-wrap .handmade-box .handmade-des .cta-btn {
     width: 150px;
-    height: 20px;
+    height: 30px;
     margin: 0 auto;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .handmade-wrap .handmade-box .handmade-des .cta-btn a:hover {
