@@ -11,7 +11,7 @@ main {
     overflow: hidden;
     margin-bottom: 100px;
 
-    background: url(../img/about/about-main-2.jpg) no-repeat top/cover;
+    background: url(../contents/img/menu/menu-main-2.jpg) no-repeat top/cover;
 
     position: relative; /* .main-logo_title의 기준 */
 }
