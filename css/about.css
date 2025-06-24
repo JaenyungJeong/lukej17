@@ -25,6 +25,7 @@
 }
 
 body {
+    font-family: "Outfit",sans-serif;
 }
 
 .main {
@@ -172,7 +173,7 @@ body {
 
 .history .history-intro .intro-box {
     width: 100%;
-    max-width: 1720px;
+    max-width: 1320px;
     overflow: hidden;
     
 
@@ -343,7 +344,7 @@ body {
 }
 
 .vision .vision-content .subtitle {
-    max-width: 1720px;
+    max-width: 1320px;
     margin: 0 auto 20px;
     /* outline: 2px solid blue; */
 
@@ -352,7 +353,11 @@ body {
 
 .vision .vision-content .subtitle p {
     font-family: "Outfit",sans-serif;
-    font-size: 24px;
+    font-size: 20px;
+    color: #333;
+}
+
+.vision .vision-content .subtitle p > a {
     color: #333;
 }
 
@@ -365,7 +370,7 @@ body {
 
 .vision .vision-content .vision-intro {
     width: 100%;
-    max-width: 1720px;
+    max-width: 1320px;
     height: 500px;
     margin: 0 auto;
     /* overflow: hidden; */
