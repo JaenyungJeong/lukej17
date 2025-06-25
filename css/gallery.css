@@ -26,42 +26,37 @@ body {
     color: #fff;
 
     position: absolute;
-    left: 35%;
-    top: 40%;
+    left: 50%;
+    top: 50%;
 
-    transform: translateX(-35%);
-    transform: translateY(-35%);
-
+    transform: translate(-50%, -50%);
     text-align: center;
 
 }
 
 .main .main-content .main-logo_title h2 {
     font-family: "Outfit", sans-serif;
-    font-size: 120px;
-    font-weight: bold;
+    font-size: 60px;
     margin-bottom: 40px;
 
 }
 
 .main .main-content .main-logo_title p {
     font-family: "Outfit", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 40px;
 
 }
 
 .main .main-content .main-logo_title p.bigfont {
-    font-family: "Special Elite", system-ui;
+    font-family: "Outfit", sans-serif;
     font-size: 30px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .main .main-content .main-logo_title p.smallfont {
     font-family: "Outfit", sans-serif;
     font-size: 16px;
-    font-weight: bold;
 
 }
 

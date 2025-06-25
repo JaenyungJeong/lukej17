@@ -33,29 +33,27 @@ main {
 
 .main .main-content .main-logo_title h2 {
     font-family: "Outfit", sans-serif;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 40px;
 
 }
 
 .main .main-content .main-logo_title p {
     font-family: "Outfit", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 40px;
 
 }
 
 .main .main-content .main-logo_title p.bigfont {
-    font-family: "Special Elite", system-ui;
+    font-family: "Outfit", sans-serif;
     font-size: 30px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .main .main-content .main-logo_title p.smallfont {
     font-family: "Outfit", sans-serif;
     font-size: 16px;
-    font-weight: bold;
 
 }
 

@@ -60,32 +60,6 @@ main .main-content .main-img-slide {
 }
 
 
-/* main .main-content .main-intro {
-    position: absolute;
-    left: 7%;
-    bottom: 20%;
-
-    transform: translateX(-7%);
-    transform: translateY(-20%);
-
-    font-family: "Outfit", sans-serif;
-    color: #fff;
-
-}
-
-main .main-content .main-intro h2 {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 20px;
-
-}
-
-main .main-content .main-intro p {
-    font-size: 16px;
-    margin-bottom: 10px;
-
-} */
-
 main .main-content .main-logo_title {
 
     width: 100%;
@@ -181,7 +155,6 @@ main .main-content .main-logo_title p.bigpont {
     font-size: 60px;
 
     font-family: "Outfit", sans-serif;
-    font-weight: 600;
     margin-bottom: 20px;
 
 
@@ -456,8 +429,8 @@ main .pager li.active {
 .intro .content .content-box .box .content-intro h2 {
     font-family: "Outfit", sans-serif;
     font-size: 40px;
-    font-weight: 700;
-    margin: 50px 0;
+    font-weight: bold;
+    margin: 20px 0;
     text-transform: uppercase;
 }
 
@@ -477,7 +450,7 @@ main .pager li.active {
 
 .intro .content .content-box .box .content-intro {}
 
-.intro .content .content-box .box .cta-btn {
+.intro .content .content-box .box .content-intro .cta-btn {
     font-family: "Outfit", sans-serif;
     width: 200px;
     height: 40px;
@@ -487,20 +460,16 @@ main .pager li.active {
     line-height: 40px;
     border-radius: 20px;
 
-    outline: 1px solid blue;
-    /* margin: 0 auto 90px; */
 }
 
 .intro .content .content-box .box .cta-btn a {
     color: #fff;
 }
 
-.intro .content .content-box .box .cta-btn a:hover {
+.intro .content .content-box .box .content-intro .cta-btn a:hover {
     display: block;
     background-color: #fff;
     color: #113829;
-    border: 1px solid #113829;
-    border-radius: 20px;
 }
 
 .intro .content .favorite-des {
