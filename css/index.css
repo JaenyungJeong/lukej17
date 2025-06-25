@@ -8,6 +8,10 @@ body {
     height: 100%;
 }
 
+body {
+    font-family: "Outfit", sans-serif;
+}
+
 main {
     width: 100%;
     max-width: 1920px;
@@ -256,7 +260,7 @@ main .pager li.active {
 
 .intro {
     width: 100%;
-    max-width: 1720px;
+    max-width: 1320px;
     margin: 0 auto 90px;
 }
 
@@ -606,10 +610,16 @@ main .pager li.active {
     /* border-radius: 30px; */
     padding: 5px 5px;
     overflow: hidden;
-    border: 3px solid #eee;
+    border: 3px solid #daa520;
     box-sizing: border-box;
     margin-bottom: 80px;
 
+    transition: all 0.6s;
+
+}
+
+.intro .content .content-menu li:hover {
+    transform: scale(1.1);
 }
 
 .intro .content .content-menu li~li {
@@ -630,12 +640,16 @@ main .pager li.active {
 
 .intro .content .content-menu li div h3 {
     font-family: "Outfit", sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     padding: 10px;
+
+    text-transform: uppercase;
 }
 
 .intro .content .content-menu li div p {
+    color: #555;
     padding: 10px;
+    letter-spacing: -1px;
 }
 
 
@@ -668,7 +682,7 @@ main .pager li.active {
 
 .differ {
     width: 100%;
-    max-width: 1720px;
+    max-width: 1320px;
     text-align: center;
     margin: 0 auto;
 }
@@ -870,20 +884,18 @@ main .pager li.active {
     border-radius: 20px;
 }
 
-.insta {
+section.insta {
     width: 100%;
-    max-width: 1720px;
+    max-width: 1320px;
     margin: 0 auto 90px;
 }
 
-.insta .insta-box {}
-
-.insta .insta-box p {
+.insta .insta-box > p {
     font-size: 24px;
     text-align: center;
 }
 
-.insta .insta-box p a {
+.insta .insta-box > p a {
     color: #777;
 }
 
@@ -894,44 +906,50 @@ main .pager li.active {
     margin-bottom: 60px;
 }
 
-.insta .insta-box .insta-imgbox {}
-
-.insta .insta-box .insta-imgbox .img {
-    width: 23.5%;
+section.insta .insta-box ul {
+    width: 24.25%;
     float: left;
-    margin-bottom: 10px;
 
-    position: relative;
 }
 
-.insta .insta-box .insta-imgbox .img .img-des {
-    text-align: center;
+section.insta .insta-box ul~ul {
+    margin-left: 1%;
+
+}
+section.insta .insta-box ul li {
+    margin-bottom: 4%;
+
+    position: relative;
+
+    transition: all 0.6s;
+    border: 3px solid #daa520;
+}
+
+section.insta .insta-box ul li:hover {
+    transform: scale(1.1);
+    
+}
+
+section.insta .insta-box ul li img {
+    width: 100%;
+    display: block;
+
+    
+}
+
+section.insta .insta-box ul li .img-des {
     position: absolute;
     right: 10%;
     bottom: 10%;
     color: #fff;
+    text-align: right;
 }
 
-.insta .insta-box .insta-imgbox .img .img-des h4 {
-    font-family: "Outfit", sans-serif;
-    font-size: 24px;
+section.insta .insta-box ul li .img-des h4 {
+    font-weight: bold;
+}
+section.insta .insta-box ul li .img-des p {
+    font-weight: 200;
 }
 
-.insta .insta-box .insta-imgbox .img .img-des p {
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-}
-
-.insta .insta-box .insta-imgbox .img~.img {
-    margin-left: 2%;
-}
-
-.insta .insta-box .insta-imgbox .img:nth-child(4n+1) {
-    margin-left: 0;
-}
-
-.insta .insta-box .insta-imgbox .img img {
-    width: 100%;
-    display: block;
-}
 

@@ -38,12 +38,6 @@ main {
     top: 50%;
     transform: translate(-50%,-50%);
 
-    /* left: 32%;
-    top: 35%;
-
-    transform: translateX(-35%);
-    transform: translateY(-35%); */
-
     text-align: center;
 
 }
@@ -78,20 +72,22 @@ main {
 }
 
 .menu {
+    width: 100%;
+    height: auto;
     margin-bottom: 100px;
 }
 
 .menu .menu-title-box {
     width: 100%;
-    max-width: 1920px;
+    height: 575px;
     color: #fff;
+    background: url(../contents/img/menu/menu-blending-2.jpg) no-repeat top;
+
     text-align: center;
     position: relative;
     margin: 0 auto 100px;
 
 }
-
-.menu .menu-title-box .blending-img {}
 
 .menu .menu-title-box .blending-img img {
     display: block;
@@ -99,11 +95,10 @@ main {
 
 .menu .menu-title-box .blending-des {
     position: absolute;
-    left: 40%;
+    left: 50%;
     top: 50%;
 
-    transform: translateX(-35%);
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
 }
 
 .menu .menu-title-box .blending-des h3 {
@@ -320,9 +315,9 @@ hr.section-line {
 
 }
 
-.latte .latte-wrap .latte-box .latte-des p {
-    font-family: "Asta Sans", sans-serif;
-    font-size: 24px;
+.latte .latte-wrap .latte-box .latte-des > p {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -432,7 +427,7 @@ hr.section-line {
     max-width: 1320px;
     text-align: center;
     margin: 0 auto;
-    /* overflow: hidden; */
+    overflow: hidden;
     /* outline: 2px solid blue; */
 }
 
@@ -474,7 +469,7 @@ hr.section-line {
     float: left;
     letter-spacing: -1px;
 
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 /* .handmade-wrap .handmade-box~.handmade-box {
@@ -559,7 +554,7 @@ hr.section-line {
 
 
 
-.brewery {
+section.brewery {
     margin-bottom: 100px;
 }
 
@@ -567,7 +562,7 @@ hr.section-line {
     max-width: 1920px;
     color: #333;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     word-break: keep-all;
     /* outline: 2px solid blue; */
 }
@@ -587,13 +582,16 @@ hr.section-line {
 .brewery .brewery-wrap {
     
     max-width: 1320px;
-    text-align: left;
     margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
     /* outline: 2px solid blue; */
 }
 
+
 .brewery .brewery-wrap .brewery-intro {
     margin: 0 0 20px 20px;
+    text-align: left;
 }
 
 .brewery .brewery-wrap .brewery-intro p:first-child {
@@ -609,22 +607,20 @@ hr.section-line {
 }
 
 .brewery-wrap .brewery-box_wrap {
-    width: 125%;
+    width: 200%;
     /* outline: 2px solid tomato; */
 
 }
 
 .brewery-wrap .brewery-box {
     /* outline: 2px solid blue; */
-    width: 18.4%;
+    width: 11.5%;
+    margin: 0 0.5%;
     float: left;
     letter-spacing: -1px;
     word-break: keep-all;
 }
 
-.brewery-wrap .brewery-box~.brewery-box {
-    margin-left: 2%;
-}
 
 .brewery-wrap .brewery-box .brewery-img {
     border-radius: 24px;
@@ -637,27 +633,31 @@ hr.section-line {
 .brewery-wrap .brewery-box .brewery-des {
     text-align: center;
     padding: 10px 0;
+    text-align: center;
 }
 .brewery-wrap .brewery-box .brewery-des h4 {
-    font-size: 36px;
+    font-size: 26px;
+    font-weight: bold;
     margin-bottom: 10px;
+    letter-spacing: -1.5px;
 }
 .brewery-wrap .brewery-box .brewery-des p {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
 .brewery-wrap .brewery-box .brewery-des .cta-btn {
     width: 150px;
-    height: 20px;
+    height: 30px;
     margin: 0 auto;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .brewery-wrap .brewery-box .brewery-des .cta-btn a:hover {
     border: 1px solid #113829;
 }
-.brewery-wrap .brewery-box .brewery-des .cta-btn p{
+.brewery-wrap .brewery-box .brewery-des .cta-btn > a p{
+    font-family: "Outfit",sans-serif;
     margin: 10px 0;
 
 }

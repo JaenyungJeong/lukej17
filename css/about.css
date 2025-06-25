@@ -33,7 +33,7 @@ html, body {
     overflow: hidden;
     margin-bottom: 100px;
 
-    background: url(../contents/img/about/about-main-2.jpg);
+    background: url(../contents/img/about/about-main-2.jpg) no-repeat top/cover;
 
     position: relative;
 }
@@ -130,12 +130,19 @@ html, body {
 }
 
 .history {
+
+    width: 100%;
+    height: auto;
+    background: url(../contents/img/about/history.jpg) no-repeat top;
+    
     margin-bottom: 100px;
+
 }
 
 .history .history-content {
     width: 100%;
-    max-width: 1920px;
+    height: 575px;
+    max-width: 1320px;
     color: #fff;
     text-align: center;
     position: relative;
@@ -143,7 +150,6 @@ html, body {
 
 }
 
-.history .history-content .history-img {}
 
 .history .history-content .history-img img {
     display: block;
@@ -151,11 +157,10 @@ html, body {
 
 .history .history-content .history-des {
     position: absolute;
-    left: 35%;
+    left: 50%;
     top: 50%;
 
-    transform: translateX(-35%);
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
 }
 
 .history .history-content .history-des h3 {
@@ -172,30 +177,18 @@ html, body {
 }
 
 .history .history-intro {
-
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
 }
 
 .history .history-intro .intro-box {
     width: 100%;
-    max-width: 1320px;
     overflow: hidden;
-    
-
-    text-align: center;
-
-    margin: 0 auto 40px;
+    margin-bottom: 40px;
 }
 
-.history .history-intro .intro-box>div {
-    float: left;
-}
-
-.history .history-intro .intro-box .des {
-    width: 100%;
-    /* background-color: #F6EBE3; */
-    padding: 40px 0;
-    
-    /* border: 5px solid #f8f0ea; */
+.history .history-intro .intro-box .des {    
     border-radius: 24px;
     box-sizing: border-box;
     margin-bottom: 40px;
@@ -225,11 +218,6 @@ html, body {
 
 }
 
-.history .history-intro .intro-box .des>div .title{
-    
-    
-}
-
 .history .history-intro .intro-box .des h4 {
     font-weight: bold;
     font-size: 60px;
@@ -240,8 +228,6 @@ html, body {
     font-family: "Asta Sans", sans-serif;
     font-size: 22px;
 }
-
-.history .history-intro .intro-box .intro-img {}
 
 .history .history-intro .intro-box .intro-img img {
     width: 100%;
@@ -254,7 +240,6 @@ html, body {
     display: flex;
     width: max-content;
     animation: slideLeft 20s linear infinite;
-    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -266,12 +251,14 @@ html, body {
     animation: slideRight 20s linear infinite;
 }
 
-.history .history-intro .intro-box .history-img-box>div {
+.history .history-intro .intro-box .history-img-box > div {
     float: left;
 }
 
 
 .vision {
+    width: 100%;
+    height: auto;
     margin-bottom: 100px;
     
 }
@@ -280,22 +267,21 @@ html, body {
 
 .vision .vision-content {
     width: 100%;
-    max-width: 1920px;
+    height: 100%;
     color: #fff;
     margin: 0 auto 100px;
-    /* outline: 1px solid tomato; */
 }
 
 .vision .vision-content .vision-title-box {
     width: 100%;
-    max-width: 1920px;
+    height: 575px;
     text-align: center;
+    background: url(../contents/img/about/vision-main3.jpg) no-repeat top;
+
     position: relative;
     margin: 0 auto 100px;
     /* outline: 2px solid blue; */
 }
-
-.vision .vision-content .vision-title-box .vision-img {}
 
 .vision .vision-content .vision-title-box .vision-img img {
     display: block;
@@ -303,11 +289,11 @@ html, body {
 
 .vision .vision-content .vision-title-box .vision-des {
     position: absolute;
-    left: 30%;
-    top: 25%;
+    left: 50%;
+    top: 50%;
 
-    /* transform: translateX(-25%);
-    transform: translateY(-25%); */
+    transform: translate(-50%, -50%);
+    
 
 }
 
@@ -456,7 +442,7 @@ html, body {
     /* outline: 1px solid tomato; */
 }
 
-.epilogue .epilogue-content .vision-title-box {
+.epilogue .epilogue-content {
     width: 100%;
     max-width: 1920px;
     text-align: center;
@@ -465,7 +451,6 @@ html, body {
     /* outline: 2px solid blue; */
 }
 
-.vision .vision-content .vision-title-box .vision-img {}
 
 .epilogue .epilogue-content .epilogue-img img {
     display: block;
