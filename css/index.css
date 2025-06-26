@@ -67,7 +67,7 @@ main .main-content .main-logo_title {
     padding: 0 50px;
     box-sizing: border-box;
     font-family: "IM Fell English SC", serif;
-    color: #F6EBE3;
+    color: #fff;
     text-transform: uppercase;
     position: absolute;
     /* left: 10%; */
@@ -124,7 +124,7 @@ main .main-content .main-logo_title h2 {
 .cta-button2 img {
     width: 50px;
     display: block;
-    color: #F6EBE3;
+    /* color: #F6EBE3; */
 
 }
 
@@ -142,7 +142,7 @@ main .main-content .main-logo_title h2 {
     /* 선택사항 */
     height: 50px;
     font-size: 18px;
-    color: #F6EBE3;
+    /* color: #F6EBE3; */
 
 }
 
@@ -618,7 +618,7 @@ main .pager li.active {
 .intro .content .content-menu li div p {
     color: #555;
     padding: 10px;
-    letter-spacing: -1px;
+    letter-spacing: -1.5px;
 }
 
 
