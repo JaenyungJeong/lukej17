@@ -1,63 +1,122 @@
 @charset "utf-8";
 
-.main {
-    /* margin-bottom: 100px; */
-}
 
-.main .main-content {
+html,
+body {
     width: 100%;
     height: 100%;
-    max-width: 1920px;
-    margin: 0 auto 100px;
-    position: relative;
-    text-align: left;
-
 }
 
-.main .main-content .main-img img {
-    display: block;
+body {
+    font-family: "Outfit", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+    background: url(../contents/img/visit/visit-main.jpg) no-repeat top/cover;
+
+    position: relative;
 }
 
 .main .main-content .main-logo_title {
     color: #fff;
 
     position: absolute;
-    left: 35%;
-    top: 30%;
+    left: 50%;
+    top: 50%;
 
-    /* transform: translateX(-35%);
-    transform: translateY(-30%); */
-
+    transform: translate(-50%, -50%);
     text-align: center;
+
+    /* background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(3px); */
 
 }
 
 .main .main-content .main-logo_title h2 {
-    font-family: "Outfit", sans-serif;
-    font-size: 120px;
-    font-weight: bold;
+    font-size: 60px;
     margin-bottom: 40px;
 
 }
 
 .main .main-content .main-logo_title p {
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 40px;
+    text-transform: uppercase;
 
 }
 
 .main .main-content .main-logo_title p.bigfont {
-    font-family: "Special Elite", system-ui;
     font-size: 30px;
-    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .main .main-content .main-logo_title p.smallfont {
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 20px;
 
 }
 
+section.visit {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto 100px;
+}
+
+section.visit .visit-list {
+    /* outline: 1px solid blue; */
+    text-align: center;
+}
+
+section.visit .visit-list li {
+    width: 33.3%;
+    float: left;
+
+    position: relative;
+}
+
+section.visit .visit-list li::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 280px;
+    background-color: #ccc;
+
+    position: absolute;
+    left: 0;
+    top: 12px;
+
+    /* transform: translateY(-50%); */
+}
+
+section.visit .visit-list li:first-child::after {
+    display: none;
+}
+
+section.visit .visit-list li img {
+    margin-bottom: 20px;
+}
+
+section.visit .visit-list li>div {}
+
+section.visit .visit-list li>div h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section.visit .visit-list li>div p {
+    font-size: 18px;
+    color: #555;
+    line-height: 2;
+}
+section.visit .visit-list li>div p a{
+    color: #333;
+}
+
+section.visit .visit-list li>div p a:hover {
+    color: #555;
+}
