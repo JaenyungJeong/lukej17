@@ -88,13 +88,13 @@ main {
 .menu .menu-title-box .blending-des h3 {
     font-family: "Outfit", sans-serif;
     font-size: 60px;
-    font-weight: bold;
     margin-bottom: 40px;
 }
 
 .menu .menu-title-box .blending-des p {
-    font-family: "Asta Sans", sans-serif;
-    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -185,8 +185,8 @@ main {
 hr.section-line {
     border: none;
     background-color: #eee;
-    width: 1720px;
-    padding: 2px 0;
+    width: 1320px;
+    padding: 1px 0;
     margin: 0 auto 100px;
     
 }
@@ -198,7 +198,6 @@ hr.section-line {
 }
 
 .latte .latte-title_des {
-    max-width: 1920px;
     color: #333;
     text-align: center;
     margin: 0 auto 100px;
@@ -213,13 +212,13 @@ hr.section-line {
 }
 
 .latte .latte-title_des p {
-    font-family: "Asta Sans", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .latte .latte-wrap {
     width: 100%;
-    max-width: 1720px;
     overflow: hidden;
     text-align: left;
     margin: 0 auto;
@@ -229,7 +228,7 @@ hr.section-line {
 }
 
 .latte .latte-wrap .latte-intro {
-    margin: 0 0 20px 20px;
+    padding: 20px 30px;
 }
 
 .latte .latte-wrap .latte-intro p:first-child {
@@ -388,7 +387,6 @@ hr.section-line {
 }
 
 .handmade .handmade-title_des {
-    max-width: 1920px;
     color: #333;
     text-align: center;
     margin: 0 auto 100px;
@@ -403,8 +401,9 @@ hr.section-line {
 }
 
 .handmade .handmade-title_des p {
-    font-family: "Asta Sans", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 
@@ -545,7 +544,6 @@ section.brewery {
 }
 
 .brewery .brewery-des {
-    max-width: 1920px;
     color: #333;
     text-align: center;
     margin: 0 auto 100px;
@@ -561,8 +559,9 @@ section.brewery {
 }
 
 .brewery .brewery-des p {
-    font-family: "Asta Sans", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .brewery .brewery-wrap {

@@ -148,13 +148,12 @@ html, body {
 .history .history-content .history-des h3 {
     font-family: "Outfit", sans-serif;
     font-size: 60px;
-    font-weight: bold;
     margin-bottom: 40px;
 }
 
 .history .history-content .history-des p {
     font-family: "Asta Sans", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -202,13 +201,14 @@ html, body {
 
 .history .history-intro .intro-box .des h4 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .history .history-intro .intro-box .des .des-box {
-    font-family: "Asta Sans", sans-serif;
-    font-size: 22px;
+    font-family: "Outfit",sans-serif;
+    font-size: 20px;
+    color: #555;
 }
 
 .history .history-intro .intro-box .intro-img img {
@@ -282,22 +282,21 @@ html, body {
 .vision .vision-content .vision-title-box .vision-des h3 {
     font-family: "Outfit", sans-serif;
     font-size: 60px;
-    font-weight: bold;
     margin-bottom: 40px;
 }
 
 .vision .vision-content .vision-title-box .vision-des p.bigfont {
-    font-family: "Asta Sans", sans-serif;
-    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
     margin-bottom: 40px;
 
 }
 
-.vision .vision-content .vision-title-box .vision-des p.smallfont {
+/* .vision .vision-content .vision-title-box .vision-des p.smallfont {
     font-family: "Asta Sans", sans-serif;
     font-size: 16px;
 }
-
+ */
 .vision-title {
     font-family: "Outfit",sans-serif;
     color: #333;
@@ -305,7 +304,7 @@ html, body {
 }
 
 .vision-title h3 {
-    font-size: 90px;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 50px;
 }

@@ -12,6 +12,9 @@ font-family: "Asta Sans", sans-serif;
 영어폰트 
 font-family: "Outfit",sans-serif;
 font-weight : 100~900;
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+font-family: "Rubik Dirt", system-ui;
 
 보더 래디우스 border-radius: 30px;
 overflow: hidden;
