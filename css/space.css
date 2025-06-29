@@ -82,6 +82,22 @@ section.space {
     transform: translateY(-50%);
 }
 
+.space .space-des {
+    max-width: 1320px;
+    margin: 0 auto 100px;
+}
+.space .space-des h2 {
+    font-family: "Outfit",sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.space .space-des p {
+    font-family: "Outfit",sans-serif;
+    font-size: 24px;
+    color: #555;
+}
+
 .space .content-box {
     width: 100%;
     max-width: 1320px;
@@ -152,8 +168,8 @@ section.space {
 
 .space .content-box .box .txt-box p:last-child {
     font-family: "Outfit",sans-serif;
-    font-size: 16px;
-    color: #333;
+    font-size: 18px;
+    color: #555;
     letter-spacing: -0.5px;
     line-height: 2;
 }
