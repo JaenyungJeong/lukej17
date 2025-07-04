@@ -120,3 +120,51 @@ section.visit .visit-list li>div p a{
 section.visit .visit-list li>div p a:hover {
     color: #555;
 }
+
+section.reviews {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto 100px;
+}
+
+section.reviews .reviews-des  {
+    text-align: center;
+}
+section.reviews .reviews-des h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+section.reviews .reviews-des p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 100px;
+}
+
+section.reviews .reviews-img {
+    margin-bottom: 20px;
+}
+
+
+section.reviews .reviews-box {}
+section.reviews .reviews-box li {
+    width: 32%;
+    float: left;
+}
+
+section.reviews .reviews-box li~li {
+    margin-left: 2%;
+}
+section.reviews .reviews-box li img {
+    width: 100%;
+    display: block;
+}
+
+section.reviews ul li {
+    transition: all 0.6s;
+}
+section.reviews ul li:hover {
+    transform: scale(1.1);
+}
+
+
+
